@@ -12,5 +12,5 @@ ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[cyan]%} ∉"
 
 return="%(?..%? ↵)"
 
-PROMPT='%{$fg[yellow]%}%3~%{$reset_color%}%{$fg[red]%} %{$reset_color%}%{$fg[cyan]%}$(git_prompt_info)λ%{$reset_color%} '
+PROMPT='[%{$fg[red]%}%n%{$reset_color%}] %{$fg[yellow]%}%3~%{$reset_color%}%{$fg[red]%} %{$reset_color%}%{$fg[cyan]%}$(git_prompt_info)λ%{$reset_color%} '
 RPROMPT='${return}$(git_prompt_status)%{$reset_color%}'
